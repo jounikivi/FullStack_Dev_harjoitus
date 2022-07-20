@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "hello-world": {
+    "democompnents": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/hello-world",
+            "outputPath": "dist/democompnents",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "hello-world:build:production"
+              "browserTarget": "democompnents:build:production"
             },
             "development": {
-              "browserTarget": "hello-world:build:development"
+              "browserTarget": "democompnents:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "hello-world:build"
+            "browserTarget": "democompnents:build"
           }
         },
         "test": {
@@ -99,6 +99,6 @@
     }
   },
   "cli": {
-    "analytics": "17de66f4-2062-4ed1-9345-0de0e0470900"
+    "analytics": "ea7346a6-5d5f-43ca-9bcb-c2a68fc45453"
   }
 }
